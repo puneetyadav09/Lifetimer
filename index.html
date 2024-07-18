@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dob">
+            <h1>Enter Your Date of Birth</h1>
+            <input type="datetime-local" name="dob" id="dob">
+            <button id="buttonTxt">Calculate</button>
+        </div>
+        <div class="lifetime hide">
+                <h1>How Much Life Journey Covered, Till Now</h1>
+                <div id="result">
+                    <div id="years">00</div>
+                    <div id="months">00</div>
+                    <div id="days">00</div>
+                    <div id="hours">00</div>
+                    <div id="minutes">00</div>
+                    <div id="seconds">00</div>
+                </div>
+                <div class="attribute">
+                    <ul>
+                        <li>Years</li>
+                        <li>Months</li>
+                        <li>Days</li>
+                        <li>Hours</li>
+                        <li>Mintues</li>
+                        <li>Seconds</li>
+                    </ul>
+                </div>
+                <button>Reset</button>
+        </div>
+    </div>
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
